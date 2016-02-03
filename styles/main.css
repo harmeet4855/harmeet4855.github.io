@@ -8,6 +8,10 @@ md-sidenav{
   max-width: 100%;
 }
 
+.md-card-image{
+  overflow-y: auto;
+}
+
 .clickable{
   cursor: pointer !important;
 }
