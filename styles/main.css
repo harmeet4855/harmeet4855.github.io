@@ -123,13 +123,13 @@ md-grid-tile{
 }
 
 /*media quries*/
-@media screen and (min-width: 925px) and (max-width: 960px) {
+@media screen and (min-width: 640px) and (max-width: 960px) {
   md-tabs-wrapper{
     top: 48px;
   }
 }
 
-@media screen and (max-width: 925px) {
+@media screen and (max-width: 640px) {
   md-tabs-wrapper{
     top: 56px;
   }
