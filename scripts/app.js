@@ -9,8 +9,7 @@ angular.module('portfolioApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'ui.router',
-  'angular-carousel'
+  'ui.router'
 ])
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     //delete $httpProvider.defaults.headers.common['X-Requested-With'];
