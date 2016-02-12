@@ -25,6 +25,7 @@
       vm.resume = resume;
       vm.toolbarTitle = toolbarTitle;
       vm.checkSidenavCloseScreen = checkSidenavCloseScreen;
+      vm.goToProjects = goToProjects;
 
       $rootScope.$on('$stateChangeSuccess', toolbarTitle);
       toolbarTitle();
@@ -70,6 +71,10 @@
         if($mdMedia('xs')){
           vm.close();
         }
+      }
+
+      function goToProjects(){
+        $state.go('start.projects');
       }
     });
 })();

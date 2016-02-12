@@ -55,6 +55,38 @@ angular.module('portfolioApp', [
           navigateUp: 'start.projects',
           titlename: 'Sociotags'
         })
+        .state('start.saathi', {
+          url: 'saathi',
+          templateUrl: 'views/projects/saathi.html',
+          controller: 'SaathiController',
+          controllerAs: 'saathiCtrl',
+          navigateUp: 'start.projects',
+          titlename: 'Saathi'
+        })
+        .state('start.statusbrew', {
+          url: 'statusbrew',
+          templateUrl: 'views/projects/statusbrew.html',
+          controller: 'StatusbrewController',
+          controllerAs: 'statusbrewCtrl',
+          navigateUp: 'start.projects',
+          titlename: 'Statusbrew'
+        })
+        .state('start.mobcustom', {
+          url: 'mobcustom',
+          templateUrl: 'views/projects/mobcustom.html',
+          controller: 'MobcustomController',
+          controllerAs: 'mobcustomCtrl',
+          navigateUp: 'start.projects',
+          titlename: 'Mobile Phone Customization'
+        })
+        .state('start.waterlogging', {
+          url: 'waterlogging',
+          templateUrl: 'views/projects/waterlogging.html',
+          controller: 'WaterloggingController',
+          controllerAs: 'waterloggingCtrl',
+          navigateUp: 'start.projects',
+          titlename: 'Waterlogging '
+        })
         .state('start.chatIo', {
           url: 'chatIo',
           templateUrl: 'views/projects/chat.io.html',
