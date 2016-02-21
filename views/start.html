@@ -1,3 +1,4 @@
+<!-- <md-progress-linear md-mode="indeterminate" ng-show="startCtrl.isLoading"></md-progress-linear> -->
 <section layout="row" flex>
   <md-sidenav class="md-sidenav-left md-whiteframe-z1" flex-lg="20" md-component-id="left"
               md-is-locked-open="$mdMedia('gt-md')">
@@ -68,7 +69,7 @@
       </div>
     </md-toolbar>
     <div ui-view=""></div>
-    <md-button ng-click="startCtrl.goToProjects()" class="md-fab md-warn" aria-label="Projects">
+    <md-button ng-click="startCtrl.goToProjects()" class="md-fab md-accent" aria-label="Projects">
         <md-tooltip md-direction="top">
           Projects
         </md-tooltip>

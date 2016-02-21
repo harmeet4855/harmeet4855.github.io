@@ -18,7 +18,7 @@
         {
           name: 'Step 1',
           desc: 'Defining Method Line',
-          thumb: 'images/sociotags/sociotags-04.jpg',
+          thumb: 'images/sociotags/sociotags-01.jpg',
           size: '100'
         },
         {
@@ -32,6 +32,24 @@
           desc: 'Competitor Analysis',
           thumb: 'images/sociotags/sociotags-03.jpg',
           size: '50'
+        },
+        {
+          name: 'Focus Groups',
+          desc: 'Competitor Analysis',
+          thumb: 'images/sociotags/sociotags-04.jpg',
+          size: '100'
+        },
+        {
+          name: 'Focus Groups',
+          desc: 'Competitor Analysis',
+          thumb: 'images/sociotags/sociotags-05.jpg',
+          size: '100'
+        },
+        {
+          name: 'Focus Groups',
+          desc: 'Competitor Analysis',
+          thumb: 'images/sociotags/sociotags-06.jpg',
+          size: '100'
         }
       ]
 

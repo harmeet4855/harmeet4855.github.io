@@ -18,20 +18,68 @@
         {
           name: 'Step 1',
           desc: 'Defining Method Line',
-          thumb: 'images/sociotags/sociotags-04.jpg',
+          thumb: 'images/mobcustom/mobcustom_2.jpg',
+          size: '100'
+        },
+        {
+          name: 'Step 3',
+          desc: 'Defining Problem Statement',
+          thumb: 'images/mobcustom/mobcustom_3.jpg',
+          size: '100'
+        },
+        {
+          name: 'Focus Groups',
+          desc: 'Competitor Analysis',
+          thumb: 'images/mobcustom/mobcustom_4.jpg',
           size: '100'
         },
         {
           name: 'Step 2',
           desc: 'Defining Problem Statement',
-          thumb: 'images/sociotags/sociotags-02.jpg',
-          size: '50'
+          thumb: 'images/mobcustom/mobcustom_5.jpg',
+          size: '100'
         },
         {
-          name: 'Focus Groups',
-          desc: 'Competitor Analysis',
-          thumb: 'images/sociotags/sociotags-03.jpg',
-          size: '50'
+          name: 'Step 2',
+          desc: 'Defining Problem Statement',
+          thumb: 'images/mobcustom/mobcustom_6.jpg',
+          size: '100'
+        },
+        {
+          name: 'Step 2',
+          desc: 'Defining Problem Statement',
+          thumb: 'images/mobcustom/mobcustom_7.jpg',
+          size: '100'
+        },
+        {
+          name: 'Step 2',
+          desc: 'Defining Problem Statement',
+          thumb: 'images/mobcustom/mobcustom_8.jpg',
+          size: '100'
+        },
+        {
+          name: 'Step 2',
+          desc: 'Defining Problem Statement',
+          thumb: 'images/mobcustom/mobcustom_9.jpg',
+          size: '100'
+        },
+        {
+          name: 'Step 2',
+          desc: 'Defining Problem Statement',
+          thumb: 'images/mobcustom/mobcustom_10.jpg',
+          size: '100'
+        },
+        {
+          name: 'Step 2',
+          desc: 'Defining Problem Statement',
+          thumb: 'images/mobcustom/mobcustom_11.jpg',
+          size: '100'
+        },
+        {
+          name: 'Step 2',
+          desc: 'Defining Problem Statement',
+          thumb: 'images/mobcustom/mobcustom_12.jpg',
+          size: '100'
         }
       ]
 
