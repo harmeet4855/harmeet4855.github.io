@@ -16,6 +16,10 @@ md-sidenav {
     position: fixed !important;
 }
 
+.general-content{
+    margin-top: 65px;
+}
+
 .md-display-1,
 .md-display-2,
 .md-display-3,
