@@ -103,7 +103,8 @@ md-list {
 
 .profile > button > div {
     font-size: 30px;
-    color: #7AD3BE;
+    /*color: #7AD3BE;*/
+    color: #757575;
     font-weight: 300;
 }
 
