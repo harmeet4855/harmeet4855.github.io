@@ -141,7 +141,25 @@
                 </p>
               </div>
             </md-list-item>
-            <div flex-gt-md="30" flex="100" ng-repeat="deliverable in saathiCtrl.deliverables">
+            <div flex="100">
+              <md-card>
+                <md-card-header>
+                  <md-card-header-text>
+                    <span class="md-title">Video Submission</span>
+                    <span class="md-subhead">Conceptualisation and Product Video</span>
+                  </md-card-header-text>
+                </md-card-header>
+                <md-divider></md-divider>
+                <iframe src="https://www.youtube.com/embed/nbS9dEYc8c0" 
+                frameborder="0" allowfullscreen>
+                </iframe>
+               <!--  <video controls class="md-card-video">
+                  <source src="images/saathi/deliverable1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video> -->
+              </md-card>
+            </div>
+            <div flex="100" ng-repeat="deliverable in saathiCtrl.deliverables">
               <md-card>
                 <md-card-header>
                   <md-card-header-text>

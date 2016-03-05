@@ -21,19 +21,19 @@ angular.module('portfolioApp', [
         controller: 'StartController',
         controllerAs: 'startCtrl'
       })
-      .state('start.home', {
-        url: '',
-        templateUrl: 'views/home.html',
-        controller: 'HomeController',
-        controllerAs: 'homeCtrl',
-        titlename: 'Highlights'
-      })
+      // .state('start.home', {
+      //   url: '',
+      //   templateUrl: 'views/home.html',
+      //   controller: 'HomeController',
+      //   controllerAs: 'homeCtrl',
+      //   titlename: 'Highlights'
+      // })
       .state('start.projects', {
-        url: 'projects',
+        url: '',
         templateUrl: 'views/projects.html',
         controller: 'ProjectsController',
         controllerAs: 'projectsCtrl',
-        navigateUp: 'start.home',
+        // navigateUp: 'start.home',
         titlename: 'Projects'
       })
       //INDIVIDUAL PROJECTS ---- start
@@ -123,7 +123,7 @@ angular.module('portfolioApp', [
         templateUrl: 'views/experience.html',
         controller: 'ExperienceController',
         controllerAs: 'experienceCrl',
-        navigateUp: 'start.home',
+        navigateUp: 'start.projects',
         titlename: 'Experience'
       })
       .state('start.contact', {
@@ -131,7 +131,7 @@ angular.module('portfolioApp', [
         templateUrl: 'views/contact.html',
         controller: 'ContactController',
         controllerAs: 'contactCrl',
-        navigateUp: 'start.home',
+        navigateUp: 'start.projects',
         titlename: 'Contact Me'
       });
 

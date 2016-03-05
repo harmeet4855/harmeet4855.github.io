@@ -1,6 +1,6 @@
 @import url(icon.css);
 body {
-  font-family: "Open Sans";
+  font-family: "Montserrat";
 }
 
 input,
@@ -10,6 +10,16 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+/*video {
+    height:100% !important;
+    width: 100% !important;
+}*/
+
+iframe, object, embed {
+        max-width: 100%;
+        height: 855px;
 }
 
 md-sidenav {
@@ -35,6 +45,11 @@ md-sidenav {
     overflow-y: auto;
 }
 
+/*.md-card-video {
+    overflow-y: auto;
+    width: 100%;
+}
+*/
 .clickable {
     cursor: pointer !important;
 }
@@ -103,9 +118,10 @@ md-list {
 
 .profile > button > div {
     font-size: 30px;
-    /*color: #7AD3BE;*/
+/*    color: #7AD3BE;
+*/ 
     color: #757575;
-    font-weight: 300;
+   font-weight: 300;
 }
 
 .md-avatar {
@@ -182,6 +198,10 @@ md-tab-item>span {
     md-tabs-wrapper {
         top: 48px;
     }
+
+    iframe, object, embed {
+        height: 400px;
+    }
 }
 
 
@@ -198,15 +218,35 @@ md-tab-item>span {
 }
 */
 
+@media screen and (min-width: 960px) and (max-width: 1280px) {
+    iframe, object, embed {
+        height: 550px;
+    }
+}
+
 @media screen and (max-width: 640px) {
     md-tabs-wrapper {
         top: 56px;
+    }
+
+    iframe, object, embed {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    iframe, object, embed {
+        height: 150px;
     }
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1620px) {
     .content-container {
         margin-left: 20%;
+    }
+
+    iframe, object, embed {
+        height: 650px;
     }
 }
 

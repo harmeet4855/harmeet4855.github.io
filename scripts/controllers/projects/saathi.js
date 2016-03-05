@@ -47,23 +47,13 @@
         }
       ]
 
-      // vm.deliverables = [
-      //   {
-      //     name: 'Final UI - 1',
-      //     desc: 'Deployment Phase',
-      //     thumb: 'images/sigcloud/Deliverables-01.jpg'
-      //   },
-      //   {
-      //     name: 'Final UI - 2',
-      //     desc: 'Monitoring Phase',
-      //     thumb: 'images/sigcloud/Deliverables-02.jpg'
-      //   },
-      //   {
-      //     name: 'Final UI - 3',
-      //     desc: 'Management Phase',
-      //     thumb: 'images/sigcloud/Deliverables-03.jpg'
-      //   }
-      // ]
+      vm.deliverables = [
+        {
+          name: 'Poster Submission',
+          desc: 'Product Description',
+          thumb: 'images/saathi/deliverable2.jpg'
+        }
+      ]
 
       //Declare methods here
 
