@@ -69,13 +69,13 @@ angular.module('portfolioApp', [
           navigateUp: 'start.projects',
           titlename: 'Statusbrew'
         })
-        .state('start.mobcustom', {
-          url: 'mobcustom',
-          templateUrl: 'views/projects/mobcustom.html',
-          controller: 'MobcustomController',
-          controllerAs: 'mobcustomCtrl',
+        .state('start.alzmob', {
+          url: 'alz-mob',
+          templateUrl: 'views/projects/alzmob.html',
+          controller: 'AlzmobController',
+          controllerAs: 'alzmobCtrl',
           navigateUp: 'start.projects',
-          titlename: 'Mobile Phone Customization'
+          titlename: 'Alz-Mob'
         })
         .state('start.waterlogging', {
           url: 'waterlogging',

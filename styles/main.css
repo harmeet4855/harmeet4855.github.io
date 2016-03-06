@@ -2,7 +2,11 @@
 body {
   font-family: "Montserrat";
 }
-
+/*
+body {
+  font-family: "Open Sans";
+}
+*/
 input,
 button,
 select,
@@ -44,6 +48,10 @@ md-sidenav {
 .md-card-image {
     overflow-y: auto;
 }
+/*
+md-content{
+    background-image: url("../images/saathi/bg.jpg");
+}*/
 
 /*.md-card-video {
     overflow-y: auto;
@@ -166,6 +174,14 @@ md-grid-tile {
   bottom: 2%;
 }
 
+.use-case{
+    padding-top: 20px;
+}
+
+.md-3-line{
+    min-height: 0px !important;
+}
+
 /*.projects-type{*/
 
 
@@ -184,6 +200,7 @@ md-grid-tile {
 
 .summary-header {
     margin: 0px !important;
+    margin-bottom: 20px !important;
     padding: 0px !important;
 }
 
