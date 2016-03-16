@@ -34,6 +34,23 @@ md-sidenav {
     margin-top: 65px;
 }
 
+.md-display-1 {
+    font-size: 24px;
+}
+
+.md-subhead {
+    font-size: 15px;
+}
+
+.md-headline {
+    font-size: 20px;
+}
+
+md-card-actions>.md-button{
+    text-transform: capitalize !important;
+    color: #E7145B !important;
+}
+
 .md-display-1,
 .md-display-2,
 .md-display-3,
@@ -97,6 +114,9 @@ md-tabs-wrapper {
     width: 100%;
 }
 
+/*#E7145B*/
+/*#00984C*/
+
 md-ink-bar {
   background: #E7145B !important;
     height: 3px;
@@ -125,7 +145,7 @@ md-list {
 }
 
 .profile > button > div {
-    font-size: 30px;
+    font-size: 28px;
 /*    color: #7AD3BE;
 */ 
     color: #757575;
@@ -208,6 +228,9 @@ md-tab-item>span {
     color: rgba(0, 0, 0, 0.54);
 }
 
+#hidden-menu{
+    display:none;
+}
 
 /*media quries*/
 

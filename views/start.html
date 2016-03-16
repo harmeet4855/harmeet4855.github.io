@@ -10,7 +10,7 @@
         </md-button>
         <h2>
           <span>{{startCtrl.currentTitle}}</span>
-        </h2>
+        </h2>        
       </div>
     </md-toolbar>
     <md-list>
@@ -53,7 +53,7 @@
     </md-list>
   </md-sidenav>
   <div class="content-container" flex>
-    <md-toolbar class="main-toolbar md-whiteframe-z1">
+    <md-toolbar class="main-toolbar md-whiteframe-z1 menu-visibility">
       <div class="md-toolbar-tools">
         <md-button ng-click="startCtrl.toggle()" class="md-icon-button" aria-label="Toggle" hide-gt-md>
           <md-icon class="toolbar-icons">menu</md-icon>
@@ -67,6 +67,11 @@
           <span>{{startCtrl.currentTitle}}</span>
         </h2>
         <span flex></span>
+        <md-button hide-gt-sm class="md-icon-button ad"
+           aria-label="Menu Visibility">
+          <md-icon class="toolbar-icons" id="visible-menu">arrow_drop_down</md-icon>
+          <md-icon class="toolbar-icons" id="hidden-menu">arrow_drop_up</md-icon>
+        </md-button>
       </div>
     </md-toolbar>
     <div ui-view=""></div>

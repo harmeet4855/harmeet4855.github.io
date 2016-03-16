@@ -122,7 +122,7 @@ angular.module('portfolioApp', [
         url: 'experience',
         templateUrl: 'views/experience.html',
         controller: 'ExperienceController',
-        controllerAs: 'experienceCrl',
+        controllerAs: 'experienceCtrl',
         navigateUp: 'start.projects',
         titlename: 'Experience'
       })
@@ -130,7 +130,7 @@ angular.module('portfolioApp', [
         url: 'contact',
         templateUrl: 'views/contact.html',
         controller: 'ContactController',
-        controllerAs: 'contactCrl',
+        controllerAs: 'contactCtrl',
         navigateUp: 'start.projects',
         titlename: 'Contact Me'
       });
