@@ -87,7 +87,8 @@
         {
           name: 'Poster Submission',
           desc: 'Product Description',
-          thumb: 'images/saathi/deliverable2.jpg'
+          thumb: 'images/saathi/deliverable2.jpg',
+          size: '80'
         }
       ]
 
