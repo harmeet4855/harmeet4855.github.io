@@ -36,12 +36,12 @@
         {
           ux: 1,
           web: 0,
-          name: 'Sociotags',
-          thumb: 'images/covers/sociotags.jpg',
-          state: 'start.sociotags',
-          keywords: 'Social Interaction | Airports',
-          desc: 'Sociotags are color coded smart tags, brought in place of Airport handbag tags, which tries to cater the problem of social isolation by depicting similar interests in people travelling and motivating them to interact...'
-        },        
+          name: 'MedTour',
+          thumb: 'images/covers/medtour.jpg',
+          state: 'start.medtour',
+          keywords: 'Medical Tourism | Wearables',
+          desc: 'MedTour is a wearable which helps in easing the journey of a Medical Tourist by providing contextual information from environment around and helping the person to be prepared beforehand for the next step... '
+        },
         {
           ux: 1,
           web: 0,
@@ -50,6 +50,15 @@
           state: 'start.alzmob',
           keywords: 'Alzheimer | Mobile Phone',
           desc: 'Alz-Mob is a customized mobile phone for Alzheimer patients. It builds upon assumptions based on movable buttons in 3D space matrix, and contextually adjusts gutter space and evident buttons on panel...'
+        },
+        {
+          ux: 1,
+          web: 0,
+          name: 'Sociotags',
+          thumb: 'images/covers/sociotags.jpg',
+          state: 'start.sociotags',
+          keywords: 'Social Interaction | Airports',
+          desc: 'Sociotags are color coded smart tags, brought in place of Airport handbag tags, which tries to cater the problem of social isolation by depicting similar interests in people travelling and motivating them to interact...'
         }
         // ,
         // {
@@ -63,17 +72,17 @@
 
       //Declare methods here
       vm.goToProject = goToProject;
-      vm.medTour = medTour;
 
       function goToProject(state){
-        $state.go(state);
-      }
-
-      function medTour(){
-        window.open(
-          'medtour/final_prez.html',
-          '_blank' // <- This is what makes it open in a new window.
-        );
+        if(state === 'start.medtour'){
+          window.open(
+            'https://instructionaldesignisfun.wordpress.com/2016/04/07/taking-out-the-load-from-a-medical-tourists-journey/',
+            '_blank' // <- This is what makes it open in a new window.
+          );
+        }
+        else{
+          $state.go(state);
+        }        
       }
     });
 })();
