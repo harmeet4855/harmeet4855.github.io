@@ -79,6 +79,10 @@ md-sidenav {
   background: #fafafa;
 }*/
 
+.highlight-text{
+  color: #0088ff;
+}
+
 .project-brief{
   font-size: 15px !important;
   letter-spacing: 0.04em !important;
@@ -267,11 +271,31 @@ md-grid-tile {
     background-size: contain;
 }
 
-.md-fab{
+/*.md-fab{
   background-color: #0088ff  !important;
   position: fixed;
   right: 2%;
   bottom: 2%;
+}
+*/
+md-fab-speed-dial{
+  /*background-color: #0088ff  !important;*/
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+}
+
+.project-fabs{
+  height: 100%;
+  width: 100%;
+}
+
+md-fab-trigger > .md-fab{
+  background-color: #0088ff  !important;
+}
+
+md-fab-actions > .md-fab{
+  background-color: white !important;
 }
 
 .use-case{
